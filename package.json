@@ -1,0 +1,29 @@
+{
+  "name": "llms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shajjadulferdous/LLMS-PROJECT-BACKEND.git"
+  },
+  "author": "shajjadul ferdous",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shajjadulferdous/LLMS-PROJECT-BACKEND/issues"
+  },
+  "homepage": "https://github.com/shajjadulferdous/LLMS-PROJECT-BACKEND#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "prettier": "^3.7.4"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.1"
+  }
+}
